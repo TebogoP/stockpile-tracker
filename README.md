@@ -21,10 +21,13 @@ Each user has their own private stockpile. Every add/reduce action is logged as 
 
 ## Version history
 
-### v0.1 — Project scaffold *(current)*
-- Angular app created inside GitHub repo
+### v0.1 — Project scaffold ✅
+- Angular 19 app created inside GitHub repo root
 - Node `.gitignore` in place
 - GitHub Actions CI pipeline (build + test on every push)
+- Supabase SDK installed
+- Angular environment files configured
+- GitHub Secrets injected at build time
 - README established
 
 ### v0.2 — Auth *(planned)*
